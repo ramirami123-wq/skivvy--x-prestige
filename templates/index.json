@@ -199,11 +199,11 @@
             "sub_heading_color": "#000000",
             "content_color": "#000000",
             "link_color": "#000000",
-            "link_hover_color": "#CFCDCD",
+            "link_hover_color": "#cfcdcd",
             "link_bg_color": "",
             "link_bg_hover_color": "",
             "link_border_color": "#000000",
-            "link_border_hover_color": "#CFCDCD"
+            "link_border_hover_color": "#cfcdcd"
           }
         }
       },
@@ -219,7 +219,7 @@
         "full_width": false,
         "content_width": 120,
         "border_thickness": 0,
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "divider_color": "#000000",
@@ -308,6 +308,73 @@
         "title": "Frequently Asked Questions",
         "content": ""
       }
+    },
+    "xx_ey3VjJ": {
+      "type": "xx",
+      "blocks": {
+        "image_DrHWgW": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_g3hm8w": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_gGaVtj": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_NxU3rT": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_pbdMCV": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "image_DrHWgW",
+        "image_g3hm8w",
+        "image_gGaVtj",
+        "image_NxU3rT",
+        "image_pbdMCV"
+      ],
+      "name": "SS - Glow Testimonial",
+      "settings": {
+        "animation_time": 2,
+        "loop_amount": 6,
+        "header_before_gradient": "Real Women ",
+        "header_gradient": "Real Results",
+        "header": "",
+        "header_color": "#0B1128",
+        "header_font_size": 42,
+        "header_mob_font_size": 28,
+        "review_font_size": 16,
+        "review_font_color": "#0B1128",
+        "gradient_color_1": "#57523a",
+        "gradient_color_2": "#57523a",
+        "gradient_color_3": "#7b7767",
+        "blur_color": "#B8B1DC",
+        "background-color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -317,6 +384,7 @@
     "featured_collections_iNiDFj",
     "xo_gzHCNN",
     "scrolling_content_hzHRpk",
-    "faq_Cmzxp8"
+    "faq_Cmzxp8",
+    "xx_ey3VjJ"
   ]
 }
