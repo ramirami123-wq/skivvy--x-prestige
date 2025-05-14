@@ -17,41 +17,41 @@
         "icon-1": {
           "type": "item",
           "settings": {
-            "icon": "picto-award-gift",
+            "icon": "picto-leaf",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Free delivery worldwide",
-            "content": "<p>Short content about your store</p>"
+            "title": "Vegan & Cruelty-Free",
+            "content": ""
           }
         },
         "icon-2": {
           "type": "item",
           "settings": {
-            "icon": "picto-award-gift",
+            "icon": "picto-earth",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Satisfied or refunded",
-            "content": "<p>Short content about your store</p>"
+            "title": "Free Delivery All Over Lebanon",
+            "content": ""
           }
         },
         "icon-3": {
           "type": "item",
           "settings": {
-            "icon": "picto-award-gift",
+            "icon": "picto-money",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Top-notch support",
-            "content": "<p>Short content about your store</p>"
+            "title": "Pay Cash On Delivery",
+            "content": ""
           }
         },
         "icon-4": {
           "type": "item",
           "settings": {
-            "icon": "picto-award-gift",
+            "icon": "picto-love",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Secure payments",
-            "content": "<p>Short content about your store</p>"
+            "title": "Satisfaction Guaranteed",
+            "content": ""
           }
         }
       },
@@ -61,7 +61,6 @@
         "icon-3",
         "icon-4"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,

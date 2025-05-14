@@ -1,1 +1,117 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"vendor","settings":{}},"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"payment_terms":{"type":"payment_terms","settings":{}},"separator":{"type":"separator","settings":{}},"description":{"type":"description","settings":{}},"variant_picker":{"type":"variant_picker","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{}},"pickup_availability":{"type":"pickup_availability","settings":{}},"complementary_products":{"type":"complementary_products","settings":{}}},"block_order":["vendor","title","price","payment_terms","separator","description","variant_picker","quantity_selector","buy_buttons","complementary_products"],"settings":{}},"related-products":{"type":"related-products","settings":{}}},"order":["main","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_cgHh9m": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "separator",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "liquid_cgHh9m",
+        "description"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "container_size": "lg",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Related products",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}
