@@ -260,6 +260,54 @@
         "background": "#57523a",
         "text_color": "#ffffff"
       }
+    },
+    "faq_Cmzxp8": {
+      "type": "faq",
+      "blocks": {
+        "question_aAEPMR": {
+          "type": "question",
+          "settings": {
+            "question": "What skin types are Skivvy products suitable for?",
+            "answer": "<p>Skivvy products are designed for all skin types, including sensitive skin. They are formulated to hydrate, soothe, and protect without irritation.</p>"
+          }
+        },
+        "question_kBxH3g": {
+          "type": "question",
+          "settings": {
+            "question": "How often should I use the skincare products?",
+            "answer": "<p>For best results, use Skivvy products daily. Apply the serums and sunscreen in the morning and evening for continuous care.</p>"
+          }
+        },
+        "question_wBehG8": {
+          "type": "question",
+          "settings": {
+            "question": "Are Skivvy products cruelty-free?",
+            "answer": "<p>Absolutely! Skivvy is committed to being cruelty-free, and none of our products are tested on animals.</p>"
+          }
+        },
+        "question_LcqLWy": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use these products under makeup?",
+            "answer": "<p>Yes! All Skivvy products are lightweight and absorb quickly, making them perfect for layering under makeup.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_aAEPMR",
+        "question_kBxH3g",
+        "question_wBehG8",
+        "question_LcqLWy"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -268,6 +316,7 @@
     "scrolling_content_4qyzkK",
     "featured_collections_iNiDFj",
     "xo_gzHCNN",
-    "scrolling_content_hzHRpk"
+    "scrolling_content_hzHRpk",
+    "faq_Cmzxp8"
   ]
 }
