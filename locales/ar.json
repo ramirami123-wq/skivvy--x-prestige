@@ -666,6 +666,12 @@
             "customer_profile_access_restricted": "لا يتوفر لدى Checkout إذن بالوصول إلى ملف تعريف العميل.",
             "checkout_completion_target_is_invalid_proc": "هدف إكمال عملية الدفع غير صالح.",
             "buyer_identity_presentment_currency_does_not_match": "حدثت مشكلة أثناء معالجة طلبك. حاول مرة أخرى بعد بضع دقائق."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "يجب أن يكون المبلغ المستلم بالعملة المتداولة في المتجر."
+          },
+          "checkout_source": {
+            "revoked": "لم يعد هذا الخروج متاحًا."
           }
         },
         "page_title": "الدفع",
@@ -707,7 +713,87 @@
           "step_one": "%{shop_name} - الدفع"
         },
         "tooltip_accessibility_label": "مزيد من المعلومات",
-        "qr_code": "رمز الاستجابة السريعة"
+        "qr_code": "رمز الاستجابة السريعة",
+        "full_price": "السعر الكامل:",
+        "title": "الدفع - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - الدفع",
+        "loading": "تحميل…",
+        "loading_title": "الدفع - {{shopName}}",
+        "google_map_title": "خريطة جوجل",
+        "confirm_order_button_label": "تأكيد الطلب",
+        "submit_order_button_label": "إرسال الطلب",
+        "submit_for_review_button_label": "تقديم للمراجعة",
+        "submit_for_review_notice_label": "لن يتم استحقاق الدفع حتى تتم مراجعة طلبك",
+        "continue_to_payment_plans_button_label": "الاستمرار في خطط الدفع",
+        "back_button_label": "يعود",
+        "choose_delivery_strategy": "اختر طريقة التسليم",
+        "autocomplete_zero_item": "لا يوجد عناصر متاحة",
+        "autocomplete_powered_by_google": "مدعوم من {{brandName}}",
+        "submit": "يُقدِّم",
+        "processing": "يعالج…",
+        "stepper": {
+          "increase": "زيادة {{type}}",
+          "decrease": "تقليل {{type}}",
+          "minimum_reached": "تم الوصول إلى الحد الأدنى من {{value}}",
+          "maximum_reached": "تم الوصول إلى الحد الأقصى لـ {{value}}"
+        },
+        "remove_item": "إزالة %{label}",
+        "remove_tag": "إزالة العلامة",
+        "dates": {
+          "weekdays": {
+            "monday": "الاثنين",
+            "tuesday": "يوم الثلاثاء",
+            "wednesday": "الأربعاء",
+            "thursday": "يوم الخميس",
+            "friday": "جمعة",
+            "saturday": "السبت",
+            "sunday": "الأحد"
+          },
+          "weekdays_abbreviation": {
+            "monday": "شهر",
+            "tuesday": "تو",
+            "wednesday": "نحن",
+            "thursday": "ذ",
+            "friday": "فرنسي",
+            "saturday": "سا",
+            "sunday": "سو"
+          },
+          "months": {
+            "january": "يناير",
+            "february": "فبراير",
+            "march": "يمشي",
+            "april": "أبريل",
+            "may": "يمكن",
+            "june": "يونيو",
+            "july": "يوليو",
+            "august": "أغسطس",
+            "september": "سبتمبر",
+            "october": "أكتوبر",
+            "november": "نوفمبر",
+            "december": "ديسمبر"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "إظهار الشهر السابق، {{month}} {{year}}",
+          "show_next_month": "عرض الشهر القادم، {{month}} {{year}}",
+          "range_start": "بداية النطاق",
+          "in_range": "في النطاق",
+          "range_end": "نهاية النطاق"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "مجموعة من {{number}} علامة",
+            "other": "مجموعة من {{number}} علامة"
+          }
+        },
+        "sheet": {
+          "expand": "يوسع"
+        },
+        "dropzone": {
+          "add_file": "إضافة ملف",
+          "invalid_file_type": "نوع الملف غير مدعوم",
+          "dragged_over": "إسقاط الملف للتحميل"
+        }
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
@@ -1933,7 +2019,45 @@
         "different_shipping_address_text": "استخدم عنوانًا لمرة واحدة لهذا الطلب",
         "change_company_location_link_label": "تغيير موقع الشركة",
         "change_location_link_label": "تغيير الموقع",
-        "ship_to_company": "الشحن إلى {{companyName}}"
+        "ship_to_company": "الشحن إلى {{companyName}}",
+        "title": "معلومة",
+        "address_title": "عنوان",
+        "shipping_used_as_billing_notice": "سيتم أيضًا استخدام هذا كعنوان إرسال الفاتورة الخاص بك لهذا الطلب.",
+        "delivery_option_title": "طريقة التسليم",
+        "contact_method_title": "اتصال",
+        "email_label": "بريد إلكتروني",
+        "email_placeholder": "بريد إلكتروني",
+        "email_or_phone_label": "البريد الإلكتروني أو رقم الهاتف المحمول",
+        "email_or_phone_placeholder": "البريد الإلكتروني أو رقم الهاتف المحمول",
+        "stored_addresses_label": "العناوين المحفوظة",
+        "available_addresses_label": "العناوين المتاحة",
+        "new_address_label": "استخدم عنوانًا جديدًا",
+        "first_name_label": "الاسم الأول",
+        "optional_first_name_label": "الاسم الأول (اختياري)",
+        "last_name_label": "اسم العائلة",
+        "company_label": "شركة",
+        "company_attention_label": "الشركة/الاهتمام",
+        "optional_company_attention_label": "الشركة/الاهتمام (اختياري)",
+        "optional_company_label": "الشركة (اختياري)",
+        "address1_label": "عنوان",
+        "address2_label": "شقة، جناح، الخ.",
+        "optional_address2_label": "شقة، جناح، وما إلى ذلك (اختياري)",
+        "city_label": "مدينة",
+        "country_label": "البلد/المنطقة",
+        "country_code": "رمز البلد/المنطقة",
+        "province_label": "مقاطعة",
+        "province_placeholder": "مقاطعة",
+        "county_label": "مقاطعة",
+        "county_placeholder": "مقاطعة",
+        "state_label": "ولاية",
+        "state_placeholder": "ولاية",
+        "region_label": "منطقة",
+        "region_placeholder": "منطقة",
+        "region_none": "لم يتم تحديد أي شيء",
+        "prefecture_label": "المحافظة",
+        "prefecture_placeholder": "المحافظة",
+        "governorate_label": "محافظة",
+        "governorate_placeholder": "محافظة"
       },
       "delivery_options": {
         "free_total_label": "حر",
