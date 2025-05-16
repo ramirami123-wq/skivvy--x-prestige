@@ -331,7 +331,8 @@
         "image_gGaVtj": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/beauty-of-joseon-protector-solar-de-arroz-probioticos-relief-sun-spf50-2-82680.jpg",
+            "review_text": "So hydrating and refreshing! My skin looks brighter and feels super soft.",
             "review_rating": 5
           }
         },
