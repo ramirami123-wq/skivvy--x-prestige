@@ -347,7 +347,8 @@
         "image_pbdMCV": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/112234018597_OM_F.webp",
+            "review_text": "Moisturizing and refreshing- I love the tropical coconut scent!",
             "review_rating": 5
           }
         }
