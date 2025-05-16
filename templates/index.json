@@ -323,7 +323,8 @@
         "image_g3hm8w": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/Ginseng-Essence-Water-04_cc3357e1-9432-4fe9-897a-844db05e285c.webp",
+            "review_text": "Glow, hydration, and protection in one - perfect for my busy lifestyle!",
             "review_rating": 5
           }
         },
