@@ -1148,6 +1148,14 @@
           "title": "الطلب ليس لديه عنوان شحن",
           "text_html": "%{contact_us} لإضافة عنوانك",
           "contact_us": "اتصل بنا"
+        },
+        "location_title": "موقع",
+        "subscriptions_management": {
+          "title": "الاشتراك"
+        },
+        "resend_gift_cards_by_email": "إعادة إرسال البريد الإلكتروني",
+        "vat_invoices": {
+          "title": "فواتير ضريبة القيمة المضافة"
         }
       },
       "stock": {
@@ -2133,7 +2141,9 @@
         "sms_marketing_phone_invalid": "أدخل رقم هاتف صالح",
         "address_suggestion_did_you_mean_html": "هل تقصد %{html}؟",
         "split_cart_international_shipping_not_supported": "يجب استخدام طريقة التسليم نفسها لجميع المنتجات عند الشحن الدولي. حدّث طريقة التسليم أو أنشئ طلبات متعددة.",
-        "invalid_delivery_address_reference_handle": "لم يتمكن من مطابقة عنوان التسليم المرجعي مع أي عناوين تسليم متاحة."
+        "invalid_delivery_address_reference_handle": "لم يتمكن من مطابقة عنوان التسليم المرجعي مع أي عناوين تسليم متاحة.",
+        "address_city_blank": "أدخل المدينة",
+        "address_generic_error": "خطأ في الحقل"
       },
       "store_credit_errors": {
         "generic_error": "حدثت مشكلة في رصيد متجرك. حاول مرة أخرى أو أعد تحميل الصفحة."
@@ -2226,6 +2236,16 @@
             "permission_not_allowed": "السماح بمشاركة موقعك.",
             "permission_denied": "لم نتمكن من تحديد موقعك. حاول مرة أخرى."
           }
+        },
+        "location_is_currently_closed": "مغلق",
+        "open_twenty_four_hours": "مفتوح 24/7",
+        "or": "أو",
+        "search_button": "يبحث",
+        "address_label": "عنوان",
+        "selector_tab_map": "رسم خريطة",
+        "selector_tab_list": "قائمة",
+        "paginator": {
+          "next_accessibility_label": "الصفحة التالية"
         }
       },
       "error_page": {
@@ -2380,7 +2400,115 @@
             "zone": "أدخل ولاية/مقاطعة صالحة",
             "billing_zone": "أدخل عنوان إرسال الفواتير الصحيح للولاية/المقاطعة"
           }
+        },
+        "scrim": {
+          "cancel": "يلغي"
         }
+      },
+      "billing": {
+        "billing_address_title": "مشروع قانون ل",
+        "edit": "يحرر",
+        "delete": "يمسح",
+        "address_edit": "تعديل العنوان",
+        "address_form": {
+          "add_address": "إضافة عنوان",
+          "save": "يحفظ",
+          "cancel": "يلغي"
+        }
+      },
+      "company_location": {
+        "location_title": "موقع"
+      },
+      "payment_summary": {
+        "express_payment_gateway_label": "يعبر",
+        "manual_payment_gateway_label": "يدوي",
+        "free_label": "حر"
+      },
+      "vaulted": {
+        "change_button": "يتغير"
+      },
+      "review": {
+        "title": "مراجعة",
+        "blocks": {
+          "contact_method_title": "اتصال",
+          "billing_address_title": "الفواتير",
+          "shipping_address_title": "سافر على متن سفينة لِـ",
+          "change_link_label": "يتغير",
+          "purchase_order_number_title": "رقم الطلب",
+          "no_address": "(لا يوجد عنوان)"
+        },
+        "item_header": {
+          "change_value": "تغيير القيمة",
+          "section": "قسم",
+          "value": "قيمة"
+        }
+      },
+      "shop_policies": {
+        "legal_notice": "إشعار قانوني"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "تمت الإضافة"
+          },
+          "removed": "تمت الإزالة"
+        },
+        "pay_now": "ادفع الآن"
+      },
+      "tips": {
+        "title": "أضف نصيحة",
+        "custom_label": "نصيحة مخصصة",
+        "add_tip": "أضف نصيحة",
+        "update_tip": "نصيحة التحديث",
+        "no_tip_label": "لا أحد"
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "يوم"
+          },
+          "week": {
+            "one": "أسبوع"
+          },
+          "month": {
+            "one": "شهر"
+          },
+          "year": {
+            "one": "سنة"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "تحديث البطاقة"
+      },
+      "throttle": {
+        "cart_summary_heading": "عربة التسوق الخاصة بك",
+        "merchandise": {
+          "available": "متاح",
+          "sold_out": "نفذ"
+        },
+        "title": "طابور"
+      },
+      "units": {
+        "milligram": "ملغ",
+        "kilogram": "كجم",
+        "milliliter": "مل",
+        "centiliter": "كل",
+        "cubic_meter": "متر مكعب",
+        "millimeter": "مم",
+        "centimeter": "سم",
+        "square_meter": "متر مربع",
+        "ounce": "أونصة",
+        "pound": "رطل",
+        "fluid_ounce": "أونصة سائلة",
+        "pint": "نقطة",
+        "quart": "كيو تي",
+        "gallon": "فتاة",
+        "inch": "في",
+        "foot": "قدم",
+        "yard": "ياردة",
+        "square_foot": "قدم مربع",
+        "item": "غرض"
       }
     },
     "notices": {
@@ -2658,12 +2786,49 @@
             "shopify_support_link_text": "دعم Shopify"
           }
         }
-      }
+      },
+      "invalid": "غير صالح"
     },
     "sentence": {
       "words_connector": "، ",
       "two_words_connector": " و ",
       "last_word_connector": "، و "
+    },
+    "pagination": {
+      "previous": "سابق",
+      "next": "التالي"
+    },
+    "links": {
+      "learn_more": "يتعلم أكثر"
+    },
+    "feed": {
+      "more": "أكثر"
+    },
+    "attributes": {
+      "email": "بريد إلكتروني",
+      "password": "كلمة المرور",
+      "first_name": "الاسم الأول",
+      "last_name": "اسم العائلة",
+      "body": "جسم",
+      "signature": "عنوان"
+    },
+    "addresses": {
+      "zip_code": "الرمز البريدي",
+      "postal_code": "رمز بريدي",
+      "postcode": "شفرة البريد",
+      "pincode": "الرمز البريدي",
+      "region": "منطقة",
+      "prefecture": "المحافظة",
+      "province": "مقاطعة",
+      "state": "ولاية",
+      "county": "مقاطعة",
+      "emirate": "إمارة",
+      "governorate": "محافظة"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "مميز"
+      }
     }
   },
   "customer_accounts": {
@@ -3388,7 +3553,10 @@
           }
         },
         "table_view": "إظهار عرض الجدول",
-        "show_order_actions_accessibility_label": "إظهار إجراءات الطلب للطلب {{name}}"
+        "show_order_actions_accessibility_label": "إظهار إجراءات الطلب للطلب {{name}}",
+        "location_filter_picker": {
+          "switch_view": "تبديل العرض"
+        }
       },
       "order_status": {
         "out_for_delivery_title": "شحنتك جاهزة للتسليم",
@@ -3739,7 +3907,8 @@
       },
       "cash_rounding": "تقريب النقدية",
       "adjusted_payment": "الدفع المعدل",
-      "adjusted_total": "الإجمالي المعدل"
+      "adjusted_total": "الإجمالي المعدل",
+      "link_sent": "تم إرسال الرابط"
     },
     "addresses": {
       "back_button": "خلف",
