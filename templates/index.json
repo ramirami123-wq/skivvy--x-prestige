@@ -339,7 +339,8 @@
         "image_NxU3rT": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/super_berry_1.webp",
+            "review_text": "I love the smell -and keeps my skin soft and hydrated <3",
             "review_rating": 5
           }
         },
