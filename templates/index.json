@@ -315,7 +315,8 @@
         "image_DrHWgW": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/4_6fc1b668-1cb1-485f-924f-e1ebc459a158.webp",
+            "review_text": "Simple, effective, and leaves my skin radiant!",
             "review_rating": 5
           }
         },
