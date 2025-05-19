@@ -26,6 +26,7 @@
         },
         "icon-2": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "picto-earth",
             "icon_width": 24,
